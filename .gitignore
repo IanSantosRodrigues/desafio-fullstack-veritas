@@ -1,0 +1,16 @@
+# Dependências e builds do Frontend (React)
+frontend/node_modules/
+frontend/build/
+.DS_Store
+
+# Arquivos de compilação e binários do Backend (Go)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*~
+
+# Ignorar a pasta vendor do Go (se você usar)
+backend/vendor/
