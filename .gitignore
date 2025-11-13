@@ -14,3 +14,8 @@ frontend/build/
 
 # Ignorar a pasta vendor do Go (se você usar)
 backend/vendor/
+ 
+# Ignorar arquivo de dados persistentes e binário local do backend
+backend/data/
+backend/*.db
+backend/veritas-backend
